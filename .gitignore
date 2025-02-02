@@ -3,3 +3,4 @@ variants.tar
 .DS_Store
 docker-compose.yml.bak
 shares/
+docker-compose.yml
