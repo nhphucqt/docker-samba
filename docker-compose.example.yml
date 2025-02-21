@@ -4,7 +4,7 @@ services:
   samba:
     build: .
     image: ghcr.io/servercontainers/samba
-    restart: always
+    restart: no
     # note that this network_mode makes it super easy (especially for zeroconf) but is not as safe as exposing ports directly
     # more about that here: https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation/index.html#hostnetwork
     network_mode: host
